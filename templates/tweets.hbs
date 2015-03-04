@@ -1,0 +1,25 @@
+<div class='containter'>
+  <h1>Twitter</h1>
+
+  <form>
+    <div class='form-group'>
+      <label for="message">New Tweet</label>
+      {{textarea cols='50' rows='10' id="message" class="form-control" value=message}}
+    </div>
+
+    <button class='btn btn-default' {{action 'saveTweet'}}>Save</button>
+  </form>
+
+  {{#each controller}}
+  <div class='well' {{action 'showDate'}}>
+    {{message}}
+    <br>
+    {{#if isShowing}}
+    {{date}}
+    {{/if}}
+  </div>
+
+  {{/each}}
+
+
+</div>

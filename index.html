@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="libs/jquery-1.11.2.js"></script>
+    <script src="libs/ember-1.10.0.debug.js"></script>
+    <script src="libs/ember-handlebars-loader-0.0.2.js"></script>
+    <script src="libs/ember-template-compiler-1.10.0.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Twitter2.0</title>
+
+    <script src="twitterc.js"></script>
+    <script src="router.js"></script>
+    <script src="models/store.js"></script>
+    <script src="routes/tweets.js"></script>
+    <script src="controllers/tweets.js"></script>
+    <script src="controllers/clickable.js"></script>
+    <script>
+      EmberHandlebarsLoader.loadTemplates([
+          "tweets", "application"
+        ]);
+    </script>
+
+  </head>
+  <body>
+
+  </body>
+</html>
