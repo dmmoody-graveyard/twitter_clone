@@ -36,8 +36,8 @@ In your web browser, go to http://localhost:8000
 Contribute
 ----------
 
-- Issue Tracker: github.com/dmmoody/twitter_clone/issues
-- Source Code: github.com/dmmoody/twitter_clone
+- Issue Tracker: https://github.com/dmmoody/twitter_clone/issues
+- Source Code: https://github.com/dmmoody/twitter_clone
 
 Support
 -------
